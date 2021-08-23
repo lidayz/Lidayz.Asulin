@@ -34,6 +34,11 @@ color: Magenta;
 	padding: 10px;
 border: 2px solid MediumVioletRed;
 margin: 5px;
+
+	animation-name: a1;
+	animation-duration: 10s;
+	animation-iteration-count: infinite;
+
 }
 
 .i1{
@@ -77,3 +82,9 @@ border: 2px solid MediumVioletRed;
 margin: 5px;
 }
 	
+
+
+@keyframes a1{
+from {background-color: SandyBrown;}
+to{background-color: MediumOrchid;}
+}
