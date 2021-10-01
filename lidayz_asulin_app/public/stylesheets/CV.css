@@ -1,0 +1,90 @@
+﻿*{
+text-align: center;
+
+}
+
+h1
+{
+  background-image: url('S.JPG');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+
+color: MediumVioletRed;
+}
+
+.g2{
+
+  background-image: url('S.JPG');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+
+}
+
+h3
+{
+
+color: Magenta;
+}
+
+.g1{
+
+	display: grid;
+	padding: 10px;
+border: 2px solid MediumVioletRed;
+margin: 5px;
+
+	animation-name: a1;
+	animation-duration: 10s;
+	animation-iteration-count: infinite;
+
+}
+
+.i1{
+
+background-color: MistyRose;
+    grid-column: 1/1;
+		padding: 10px;
+border: 2px solid MediumVioletRed;
+margin: 5px;
+}
+
+.i2{
+background-color: MistyRose;
+    grid-column: 2/2;
+		padding: 10px;
+border: 2px solid MediumVioletRed;
+margin: 5px;
+}
+
+.i3{
+background-color: MistyRose;
+    grid-column: 3/3;
+		padding: 10px;
+border: 2px solid MediumVioletRed;
+margin: 5px;
+}
+
+.i4{
+background-color: MistyRose;
+    grid-column: 4/4;
+		padding: 10px;
+border: 2px solid MediumVioletRed;
+margin: 5px;
+}
+
+.i5{
+background-color: MistyRose;
+    grid-column: 5/5;
+		padding: 10px;
+border: 2px solid MediumVioletRed;
+margin: 5px;
+}
+	
+
+
+@keyframes a1{
+from {background-color: SandyBrown;}
+to{background-color: MediumOrchid;}
+}
